@@ -10,15 +10,27 @@
     <main>
         <section id="login">
           <div id="imagem">
-
+            <!--Aqui vai a imagem nas CSS-->   
         </div>
 
         <div id="formulario">
                <h1>Login</h1>
                <p>seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
                <form action="login.php" method="post">
-
                 
+                <p>
+                    <label for="iuser"></label>
+                    <input type="text" name="user" id="iuser" placeholder="Usuario">
+               
+                    <label for="ipass"></label>
+                    <input type="password" name="pass" id="ipass"  placeholder="sua Senha">
+                </p>
+
+                  <p>
+                    <input type="submit" value="Entrar">
+                    <input type="reset" value="Esqueci a senha">
+                  </p>
+
                </form>
         </div>
 
