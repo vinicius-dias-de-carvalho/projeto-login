@@ -17,8 +17,6 @@
 
    body, html {
        background-color: #5f2c82;
-      display: flex;
-      
       height: 100vh;
       width: 100vw;
       margin: 0px;
@@ -55,7 +53,7 @@
       
    }
 
-   section#login > div#formulario {
+   section#login > div#formulario > h1 {
       display: block;
         padding: 10px;
    }
