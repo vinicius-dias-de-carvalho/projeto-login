@@ -40,9 +40,9 @@
       height: 515px;
       border-radius: 20px;
       box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.459);
-      transform: translate(-50%, -50%);
       transition: width .3s, height .3s;
       transition-timing-function: ease;
+      transform: translate(-50%, -50%);
       
 
    }
@@ -96,18 +96,26 @@
       color: white;
       font-size: 2em;
       width: 40px;
-      padding: 5px;
+      height: 100%;
+      display: inline-block;
+      text-align: center;
+      line-height: 40px;     
+      vertical-align: top;
       }
 
    div.campo > input {
       background-color: #78f8f4;
       font-size: 1em;
       width: calc(100% - 45px);
-      
       height: 100%;
-      border: 0px;
-      border-radius: 8px;
-      transform: translateY(-14px);
+      border: none;
+      
+      border-radius: 0px 6px 0px;
+      display: inline-block;
+      vertical-align: top;
+      padding-left: 10px;
+      outline: none;
+      
       
    }
 
